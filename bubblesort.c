@@ -4,7 +4,7 @@
 static void swap(int *a, int *b)
 {
 	int val = 0;
-	
+
 	val = *a;
 	*a = *b;
 	*b = val;
@@ -14,9 +14,9 @@ static void swap(int *a, int *b)
 // 冒泡排序
 void bubble_sort(int *arr, int n)
 {
-    int i = 0, j = 0;
+	int i = 0, j = 0;
 	int len = n-1;
-	
+
 	for(i=0; i<len; i++)
 	{
 		for(j=0; j<len-i; j++)
@@ -31,10 +31,10 @@ void bubble_sort(int *arr, int n)
 // 优化冒泡排序
 void bubble_sort_1(int *arr, int n)
 {
-    int i = 0, j = 0;
+	int i = 0, j = 0;
 	int len = n-1;
 	int flag = 0;
-	
+
 	for(i=0; i<len; i++)
 	{
 		flag = 0;
